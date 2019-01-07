@@ -16,11 +16,11 @@ public class Calculator extends SuperCalculator {
         return a + b;
     }
 
-    public double multiplication(double a, double b, double c) {
+    public double multiplication(double a, double b) {
         return a * b;
     }
 
-    public double multiplication(double a, double b) { return multiplication(a, b, 42); }
+    public double multiplication(double a, double b) { return multiplication(a, b); }
 
     public double subtraction(double a, double b) {
         return a - b;
@@ -78,6 +78,7 @@ public class Calculator extends SuperCalculator {
     }
     
 }
+
 
 
 
