@@ -10,7 +10,6 @@ public class CommentedOutCode {
 	protected int calculateSomething() {
 		int result = 0;
 		
-//		int i = 0;
 //		while (i < 10) {
 //			result = result + i;
 //			i++;
