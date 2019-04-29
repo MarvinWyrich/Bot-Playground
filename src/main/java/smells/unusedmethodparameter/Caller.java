@@ -6,7 +6,7 @@ package smells.unusedmethodparameter;
 public class Caller {
 
 	protected int callSth() {
-		return new UnusedMethodParameter().calculateSomething(1, 2, 3);
+		return new UnusedMethodParameter().calculateSomething(1, 3);
 	}
 
 }
