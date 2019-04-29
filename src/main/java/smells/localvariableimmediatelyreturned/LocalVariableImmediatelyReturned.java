@@ -7,8 +7,8 @@ package smells.localvariableimmediatelyreturned;
 public class LocalVariableImmediatelyReturned {
 
 	protected int multiply(int a, int b) {
-		int result = a * b;
-		return result;
+		return a * b;
 	}
 
 }
+
